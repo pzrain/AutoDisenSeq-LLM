@@ -1,0 +1,3 @@
+python pretrainer.py --data_name ml-1m-new --loss_type DSS-2 --pre_epoch 300 --num_hidden_layers 5 --use_auto --auto_layer 5
+python search.py --data_name ml-1m-new --loss_type DSS-2 --num_hidden_layers 5 --use_auto --auto_layer 5 --search_layer 5
+python finetuner.py --ckp 300 --epoch 300 --data_name ml-1m-new --loss_type DSS-2 --num_hidden_layers 5 --use_auto --auto_layer 5 --search_layer 5 --arch []
