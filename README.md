@@ -2,4 +2,4 @@
 
 See `run.sh` for run instructions.
 
-Codebase developed base on [DSSRec](https://github.com/abis330/DSSRec) and [AutoAttend](https://github.com/THUMNLab/AutoAttend).
+Codebase developed based on [DSSRec](https://github.com/abis330/DSSRec) and [AutoAttend](https://github.com/THUMNLab/AutoAttend).
